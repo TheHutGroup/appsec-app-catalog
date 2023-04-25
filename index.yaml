@@ -3,7 +3,17 @@ entries:
   hubble:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-21T15:27:38.440780754Z"
+    created: "2023-04-25T09:30:14.822117377Z"
+    description: A Helm chart for Kubernetes
+    digest: ac878d4c6c7f91fd294d330bba63425c0a60a74629e7a60e2e3c6a6ddf02b1cb
+    name: hubble
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-25T09:30:14.821624469Z"
     description: A Helm chart for Kubernetes
     digest: dd3db561c835c7be3799772f2f6884cdc857655ab8ec746d0bbd855a03d7ce47
     name: hubble
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-21T15:27:38.439216724Z"
+generated: "2023-04-25T09:30:14.816946193Z"
