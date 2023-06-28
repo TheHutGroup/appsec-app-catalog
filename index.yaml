@@ -3,7 +3,17 @@ entries:
   hubble:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T14:07:03.034846571Z"
+    created: "2023-06-28T14:14:07.856529339Z"
+    description: A Helm chart for Kubernetes
+    digest: 3017e22e94adfea159ae37e545a04ed4728c7a740ce782a5336e62a66308d60b
+    name: hubble
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-28T14:14:07.85576753Z"
     description: A Helm chart for Kubernetes
     digest: a8eea332d75346bb4048798aa9805774baa172c25a7eb7b19847e4abc7f67b9c
     name: hubble
@@ -13,7 +23,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T14:07:03.034084257Z"
+    created: "2023-06-28T14:14:07.854885219Z"
     description: A Helm chart for Kubernetes
     digest: e2fa395603eff46285fe66214c6258c80dc033a1c579af04b0d1513cf0956fd4
     name: hubble
@@ -23,7 +33,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T14:07:03.033117041Z"
+    created: "2023-06-28T14:14:07.853744406Z"
     description: A Helm chart for Kubernetes
     digest: 9d2ba0fd09a5ba4831a33138fc46e73eb4ee38901b6f715470902866ffbea2fc
     name: hubble
@@ -33,7 +43,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T14:07:03.032310226Z"
+    created: "2023-06-28T14:14:07.852716094Z"
     description: A Helm chart for Kubernetes
     digest: ac878d4c6c7f91fd294d330bba63425c0a60a74629e7a60e2e3c6a6ddf02b1cb
     name: hubble
@@ -43,7 +53,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T14:07:03.031317709Z"
+    created: "2023-06-28T14:14:07.851305577Z"
     description: A Helm chart for Kubernetes
     digest: dd3db561c835c7be3799772f2f6884cdc857655ab8ec746d0bbd855a03d7ce47
     name: hubble
@@ -51,4 +61,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-28T14:07:03.030607197Z"
+generated: "2023-06-28T14:14:07.849692658Z"
