@@ -3,7 +3,7 @@ entries:
   cloudflare-tunnel-remote:
   - apiVersion: v2
     appVersion: 2023.8.2
-    created: "2023-09-21T12:37:48.094144284Z"
+    created: "2023-09-25T08:33:35.177319611Z"
     description: Deployment of a remotely managed tunnel that has already been provisioned
       in Cloudflare
     digest: 9e83ba5123b760d876948ed11159164feadd4b3a77125cdf02038b488add4e87
@@ -16,7 +16,24 @@ entries:
   dependency-track:
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-09-21T12:37:48.113726367Z"
+    created: "2023-09-25T08:33:35.206484254Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    description: Dependency Track chart
+    digest: ab552e4495a51fff3c4d23c48e5960426342fd069976e6552169436e40355385
+    name: dependency-track
+    urls:
+    - https://TheHutGroup.github.io/appsec-app-catalog/dependency-track-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 4.6.3
+    created: "2023-09-25T08:33:35.197917454Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,7 +50,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-09-21T12:37:48.103882971Z"
+    created: "2023-09-25T08:33:35.189826087Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -51,7 +68,7 @@ entries:
   hubble:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.120801939Z"
+    created: "2023-09-25T08:33:35.210503736Z"
     description: A Helm chart for Kubernetes
     digest: 0320413386e69682a2802147aff1681f965dd83ca263214e3543961c8602c730
     name: hubble
@@ -61,7 +78,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.120019676Z"
+    created: "2023-09-25T08:33:35.209810687Z"
     description: A Helm chart for Kubernetes
     digest: 8a9970039bd432d0f584c550d912be071f45785e857b006f0d5ec4946042c1ec
     name: hubble
@@ -71,7 +88,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.119192009Z"
+    created: "2023-09-25T08:33:35.209108438Z"
     description: A Helm chart for Kubernetes
     digest: e2fa395603eff46285fe66214c6258c80dc033a1c579af04b0d1513cf0956fd4
     name: hubble
@@ -81,7 +98,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.117327658Z"
+    created: "2023-09-25T08:33:35.208382187Z"
     description: A Helm chart for Kubernetes
     digest: 9d2ba0fd09a5ba4831a33138fc46e73eb4ee38901b6f715470902866ffbea2fc
     name: hubble
@@ -91,7 +108,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.115811636Z"
+    created: "2023-09-25T08:33:35.207636335Z"
     description: A Helm chart for Kubernetes
     digest: ac878d4c6c7f91fd294d330bba63425c0a60a74629e7a60e2e3c6a6ddf02b1cb
     name: hubble
@@ -101,7 +118,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-21T12:37:48.114344017Z"
+    created: "2023-09-25T08:33:35.207064295Z"
     description: A Helm chart for Kubernetes
     digest: dd3db561c835c7be3799772f2f6884cdc857655ab8ec746d0bbd855a03d7ce47
     name: hubble
@@ -109,4 +126,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-21T12:37:48.093394623Z"
+generated: "2023-09-25T08:33:35.176569058Z"
