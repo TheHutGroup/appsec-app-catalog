@@ -3,7 +3,7 @@ entries:
   cloudflare-tunnel-remote:
   - apiVersion: v2
     appVersion: 2023.8.2
-    created: "2023-10-12T10:26:49.795664618Z"
+    created: "2023-10-12T11:01:55.240279709Z"
     description: Deployment of a remotely managed tunnel that has already been provisioned
       in Cloudflare
     digest: 9e83ba5123b760d876948ed11159164feadd4b3a77125cdf02038b488add4e87
@@ -16,7 +16,7 @@ entries:
   dependency-track:
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-10-12T10:26:49.832195091Z"
+    created: "2023-10-12T11:01:55.270669712Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,7 +33,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-10-12T10:26:49.822287144Z"
+    created: "2023-10-12T11:01:55.263183539Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,7 +50,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-10-12T10:26:49.812673698Z"
+    created: "2023-10-12T11:01:55.255290756Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -67,7 +67,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 4.6.3
-    created: "2023-10-12T10:26:49.804490259Z"
+    created: "2023-10-12T11:01:55.247345373Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -85,7 +85,17 @@ entries:
   hubble:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.836884213Z"
+    created: "2023-10-12T11:01:55.275303319Z"
+    description: A Helm chart for Kubernetes
+    digest: dfdb8bee352efacf35b12014132c6021b84b9d1f12a61376f01170a1077174db
+    name: hubble
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-12T11:01:55.274747006Z"
     description: A Helm chart for Kubernetes
     digest: 0320413386e69682a2802147aff1681f965dd83ca263214e3543961c8602c730
     name: hubble
@@ -95,7 +105,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.83619661Z"
+    created: "2023-10-12T11:01:55.273870486Z"
     description: A Helm chart for Kubernetes
     digest: 8a9970039bd432d0f584c550d912be071f45785e857b006f0d5ec4946042c1ec
     name: hubble
@@ -105,7 +115,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.835496506Z"
+    created: "2023-10-12T11:01:55.273315173Z"
     description: A Helm chart for Kubernetes
     digest: e2fa395603eff46285fe66214c6258c80dc033a1c579af04b0d1513cf0956fd4
     name: hubble
@@ -115,7 +125,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.834718703Z"
+    created: "2023-10-12T11:01:55.27275276Z"
     description: A Helm chart for Kubernetes
     digest: 9d2ba0fd09a5ba4831a33138fc46e73eb4ee38901b6f715470902866ffbea2fc
     name: hubble
@@ -125,7 +135,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.8340822Z"
+    created: "2023-10-12T11:01:55.272198047Z"
     description: A Helm chart for Kubernetes
     digest: ac878d4c6c7f91fd294d330bba63425c0a60a74629e7a60e2e3c6a6ddf02b1cb
     name: hubble
@@ -135,7 +145,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.833519997Z"
+    created: "2023-10-12T11:01:55.271726836Z"
     description: A Helm chart for Kubernetes
     digest: dd3db561c835c7be3799772f2f6884cdc857655ab8ec746d0bbd855a03d7ce47
     name: hubble
@@ -145,7 +155,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-12T10:26:49.832960694Z"
+    created: "2023-10-12T11:01:55.271275226Z"
     description: A Helm chart for Kubernetes
     digest: 705d8ad707d9667dc91dcfd175b90c05ea54a3e0e4ba5873c5f9bf983353ed0b
     name: hubble
@@ -153,4 +163,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.0.0-7937e44bc33518d01fa38eaddc8f840ca30744d3.tgz
     version: 0.0.0-7937e44bc33518d01fa38eaddc8f840ca30744d3
-generated: "2023-10-12T10:26:49.794899614Z"
+generated: "2023-10-12T11:01:55.236350118Z"
