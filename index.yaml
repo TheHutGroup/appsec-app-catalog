@@ -153,14 +153,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-10-12T11:01:55.271275226Z"
-    description: A Helm chart for Kubernetes
-    digest: 705d8ad707d9667dc91dcfd175b90c05ea54a3e0e4ba5873c5f9bf983353ed0b
-    name: hubble
-    type: application
-    urls:
-    - https://TheHutGroup.github.io/appsec-app-catalog/hubble-0.0.0-7937e44bc33518d01fa38eaddc8f840ca30744d3.tgz
-    version: 0.0.0-7937e44bc33518d01fa38eaddc8f840ca30744d3
 generated: "2023-10-12T11:01:55.236350118Z"
